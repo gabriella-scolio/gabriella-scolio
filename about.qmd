@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: gabriellaheadshot.png
+image: gabriella.png
 about: 
   template: trestles
   image-shape: rounded
@@ -15,7 +15,6 @@ about:
     - text: Email
       href: mailto:Gabriella.Scolio@colostate.edu
 ---
-
 I am a current Master's student at Colorado State University studying Greenhouse Gas Accounting and Carbon Management. I aspire to promote equitable systems and limit greenhouse gas emissions while prioritizing the health of our ecosystems.
 
 Education
