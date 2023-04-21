@@ -1,0 +1,31 @@
+---
+title: "About"
+image: gabriellaheadshot.png
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/gabriella-scolio/
+    - text: Twitter
+      href: https://twitter.com/GabriellaScolio
+    - text: GitHub
+      href: https://github.com/gabriella-scolio
+    - text: Email
+      href: mailto:Gabriella.Scolio@colostate.edu
+---
+
+I am a current Master's student at Colorado State University studying Greenhouse Gas Accounting and Carbon Management. I aspire to promote equitable systems and limit greenhouse gas emissions while prioritizing the health of our ecosystems.
+
+Education
+
+Colorado State University| Fort Collins, CO | August 2022 - Present
+
+Xavier University |Cincinnati , OH| B.A in History and Spanish | August 2017- May 2021
+---
+
+About this site
+
+```{r}
+```

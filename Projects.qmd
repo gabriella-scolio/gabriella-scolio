@@ -1,0 +1,19 @@
+---
+title: "Projects"
+author: "Gabriella Scolio"
+image: Map_CA.png
+image: graphCI.png
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  image-shape: rounded
+  image-width: 15em
+  image-shape: rounded
+  image-width: 15em
+---
+Inventory of California Dairy Operations
+
+This report ,and subsequent code was created as part of a class project in Applications in Greenhouse Gas Accounting. This project uses IPCC Tier 1 methods to calculate emissions associated with California Dairy operations in 2018,2020, and 2022.
+
+---

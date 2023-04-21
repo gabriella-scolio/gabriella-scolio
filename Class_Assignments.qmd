@@ -1,0 +1,17 @@
+---
+title: "523 Assignments"
+author: "Gabriella Scolio"
+about: 
+  template: trestles
+  links:
+    - text: Week 1
+      href: https://github.com/gabriella-scolio/First-Repository-
+    - text: Week 2
+      href: https://github.com/Data-Sci-Intro-2023/Week-2-Debugging-gabriellascolio
+    - text: Week 3
+      href: https://github.com/Data-Sci-Intro-2023/Week-3-Apis-and-Iteration-gabriellascolio 
+    - text: Week 4
+      href: mailto:Gabriella.Scolio@colostate.edu
+    - text: Week 5
+      href: https://github.com/Data-Sci-Intro-2023/Week-5-Modelling-gabriellascolio
+---
