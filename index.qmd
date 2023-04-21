@@ -2,7 +2,7 @@
 title: "Gabriella Scolio"
 ---
 
-This is a Quarto website.
+This is a Quarto website. Created as part of a class assignment for Ecosystem Science and Sustainability class 523. The work on this website was authored by Gabriella Scolio.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

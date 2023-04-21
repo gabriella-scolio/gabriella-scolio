@@ -7,9 +7,58 @@ about:
   image-shape: rounded
   image-width: 25em
 ---
-Inventory of California Dairy Operations
+
+## I**nventory of California Dairy Operations**
+
 
 This report ,and subsequent code was created as part of a class project in Applications in Greenhouse Gas Accounting. This project uses IPCC Tier 1 methods to calculate emissions associated with California Dairy operations in 2018,2020, and 2022.
----
+
+This project will have a secondary part that will outline a mitigation analysis , based on linear regression extrapolation from historical data.
+
+To complete this project a function was created in R which generated total emissions from dairy operations and had arguments for number of cows, counties and associated IPCC emission factors. Uncertainty was accounted for and a monte carlo analysis was performed to calculate these emission estimates to include uncertainty.
+
+### **Function**
+
+``` r
+California.Results.Total<- "DairyEmissions"(input.filename= "545_ef_data.csv",county=48, nyears= 3 ,iseed=208784, nreps = 10000 , ef= 128, ef1= 58, ef3=.005,ef5=.0075, ef4=.01, ms=.263,
+nex=97.0024, fracgas.ms=0.3, fracgas.n=.2 , EF01= .03, fracleach=.3) 
+```
+
+### Argument Definitions
+
+**\# input.filename** - Name of file with activity data, which is a comma delimited file with the input activity data in columns along with a header row as follows: Number of Cows, and all emission factors with standard deviation, max CO2 emissions factor, CH4 emission factor, min CH4 emission, max CH4 emission factor, N2O emission factor,
+min N2O emission factor, max N2O emissions factor, fuel
+amount for year 1 (TJ), standard deviation for fuel amount,
+. . . for all years
+**#county** Number of counties in input file
+**#nyears** Number of years of data
+
+**#iseed** Initial seed value for random draws
+
+**#nreps** Number of Monte Carlo iterations
+#ef EF from table 10.11 Enteric Fermentation
+
+#ef1 Ef from table 10.14 Manure Mgmt
+
+**#ef3** Ef from table 10.21 Manure Mgmt
+
+**#ef4** Ef from table 11.3 Soil N20
+
+**#ef5** Ef from table 11.3 Soil N20
+
+**#EF01** Ef from table 11.1 Soil N20
+
+**#ms** fraction of total annual nitrogen excretion for each livestock species/category T that is managed
+
+in manure management system S in the country, dimensionless 
+**#nex** annual average N excretion per head of species/category T in the country, 
+kg N animal-1 yr-1, equation 10.30
+
+**#fracgas.ms** percent of managed manure nitrogen for livestock category T that volatilises as NH3 and NOx
+in the manure management system S, %, Table 10.22
+**#fracgas.n** Volatilisation from all organic N fertilisers applied, Table 
+# 11.3
+
+**#frac leach** Leach/Runoff from all organic N fertilisers applied, Table 11.3
 
 ------------------------------------------------------------------------
